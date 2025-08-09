@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Elapsed Time Options</title>
+  <style>
+    body{font-family:Arial;padding:18px;background:#0a0f1a;color:#e6eef8}
+    label{display:block;margin-top:12px}
+    input,button{padding:8px;margin-top:6px}
+  </style>
+</head>
+<body>
+  <h2>Elapsed Time — Settings</h2>
+  <label>Target date & time
+    <input id="optsTarget" type="datetime-local">
+  </label>
+
+  <label><input type="checkbox" id="optsMillis"> Show milliseconds on new tab</label>
+  <label><input type="checkbox" id="optsTheme"> Use light theme</label>
+
+  <div style="margin-top:12px">
+    <button id="save">Save</button>
+    <button id="clear">Clear</button>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
