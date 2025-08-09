@@ -1,0 +1,24 @@
+.searchContainer {
+    margin-bottom: 40px;
+    width: 70%;
+
+    div {
+        width: 100%;
+    }
+
+    div > input {
+        width: 100%;
+        background: #2d2d2dda;
+        padding: 18px 20px;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        font-size: larger;
+        color: white;
+    }
+
+    div > input::placeholder {
+        color: rgb(158, 154, 154);
+    }
+
+}
